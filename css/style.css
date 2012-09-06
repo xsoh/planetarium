@@ -108,7 +108,7 @@
 	h1 {color:#eee; -moz-transform-origin:center center;-webkit-transform-origin:center center;-o-transform-origin:center center;transform-origin:center center;font-size:10em;}
 	
 	h1.bebas {font-size:72px;font-weight:normal;color:#ddd;}
-	h2.bebas {font-size:14px;color:#eee;margin-left:30px;margin-top:20px;font-weight:normal;color:#ccc;}
+	h2.bebas {font-size:14px;color:#eee;margin-right:30px;margin-top:20px;font-weight:normal;color:#ccc;}
 
 	a {text-decoration:none;color:#75d0ff;}
 	a:hover {color:#aae2ff;}
@@ -174,7 +174,7 @@
 	.content article {padding-top:0;}
 	.content .reflect {background:url('../img/reflect.png') no-repeat 500px 0px;padding:5px 30px; border-radius:10px;}
 	.content .window {background:rgba(255,255,255,0.1);width:550px;margin:0;border-radius:10px;border:1px solid rgba(255,255,255,0.2);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1);transform:scale(1);}
-	.content .window h1 {float:left;padding:0 15px 0 0;margin:0;position:relative;top:5px;left:-2px;height:100px;}
+	.content .window h1 {float:right;padding:0 0 0 15px;margin:0;position:relative;top:5px;left:-2px;height:100px;}
 	.content .window p {font-size:18px;line-height:30px;padding-top:0px;color:#ccc;font-size:18px; font-family:'CartoGothicStd-Book', sans-serif;}
 	.content ul {list-style-type:none;position:relative;top:-5px;margin-left:-18px;}
 	.content ul li {position:relative;float:none;margin:10px 0;opacity:1;}
