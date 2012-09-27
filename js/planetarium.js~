@@ -235,7 +235,7 @@ define(["raphael", "constants", "solarsystem", "camera", "satellites", "counter"
             this.distanceCounter = new Counter($("#counters").get(0), start, end);
     
             this.distanceCounter.onStep(function(value) {
-                $("#kilometers").text(" "+addCommas(value));
+                $("#kilometers").text("كم "+addCommas(value));
             });
             this.distanceCounter.onStop(function() {
                 self.distanceCounter = null;

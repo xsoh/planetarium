@@ -108,7 +108,7 @@
 	h1 {color:#eee; -moz-transform-origin:center center;-webkit-transform-origin:center center;-o-transform-origin:center center;transform-origin:center center;font-size:10em;}
 	
 	h1.bebas {font-size:72px;font-weight:normal;color:#ddd;}
-	h2.bebas {font-size:14px;color:#eee;margin-right:30px;margin-top:20px;font-weight:normal;color:#ccc;}
+	h2.bebas {font-size:20px;color:#eee;margin-right:20px;margin-top:20px;font-weight:normal;color:#ccc;}
 
 	a {text-decoration:none;color:#75d0ff;}
 	a:hover {color:#aae2ff;}
@@ -140,7 +140,7 @@
 	.neptune #ruler {left:-8000px;}							
 
 	#counter {position:absolute;left:0%;width:100%;bottom:-100px;text-align:center;color:#ccc;}
-	#counter span.carto {font-size:11px;}
+	#counter span.carto {font-size:16px;}
 	#counter span.bebas {font-size:18px;}	
 	#gui.visible #counter {bottom:5px;}
 
@@ -295,7 +295,7 @@
 	#uranus-atmosphere div div:nth-child(1) {width:45px;opacity:0.5;display:inline-block;-moz-transform:skewY(30deg) translateY(0px);-webkit-transform:skewY(30deg) translateY(0px);-o-transform:skewY(30deg) translateY(0px);transform:skewY(30deg) translateY(0px);}
 	#uranus-atmosphere div div:nth-child(2) {width:45px;opacity:0.8;display:inline-block;position:relative;left:-4px;-moz-transform:skewY(-30deg);-webkit-transform:skewY(-30deg);-o-transform:skewY(-30deg);transform:skewY(-30deg);}
 	#uranus-atmosphere div div:nth-child(3)	{width:65px;height:65px;opacity:0.65;position:relative;left:12.5px;-moz-transform:scaleY(0.58) rotate(45deg);-webkit-transform:scaleY(0.58) rotate(45deg);-o-transform:scaleY(0.58) rotate(45deg);transform:scaleY(0.58) rotate(45deg);}	
-	#uranus-atmosphere div span {position:absolute;left:120px;font-size:12px;}
+	#uranus-atmosphere div span {position:absolute;left:120px;font-size:15px;}
 
 	#hydrogen, #helium, #methane, #deuteride {position:absolute;left:50px;}
 
@@ -343,18 +343,18 @@
 
 /* Neptune Content */
 
-	#neptune-facts {margin:20px 0 0 -55px;}
+	#neptune-facts {margin:20px 0 0 0px;}
 	#neptune-facts li {float:left;margin:0 10px;}
 	#neptune-facts li:nth-child(1) {color:#75d0ff;}
 	#neptune-facts li:nth-child(2) {color:#ff7575;}
 	#neptune-facts li:nth-child(3) {color:#fff075;margin-right:0px;}	
-	#neptune-facts li img {margin:0 10px;float:left;}	
-	#neptune-facts li:nth-child(1) img {margin-left:0;}
+	#neptune-facts li img {margin:0 10px;float:right;}	
+	#neptune-facts li:nth-child(1) img {margin-right:0;}
 	#neptune-facts li span {display:inline;padding:0;}
 	#neptune-facts li span.carto {float:left;text-transform:uppercase;}
-	#neptune-facts li:nth-child(1) span.carto {margin-left:64px;}
-	#neptune-facts li:nth-child(2) span.carto {margin-left:55px;}
-	#neptune-facts li:nth-child(3) span.carto {margin-left:48px;}		
+	#neptune-facts li:nth-child(1) span.carto {margin-right:64px;}
+	#neptune-facts li:nth-child(2) span.carto {margin-right:55px;}
+	#neptune-facts li:nth-child(3) span.carto {margin-right:48px;}		
 
 	.left #neptune-facts li {opacity:0;-moz-transform:translateX(-1000px);-webkit-transform:translateX(-1000px);-o-transform:translateX(-1000px);transform:translateX(-1000px);}
 	.right #neptune-facts li {opacity:0;-moz-transform:translateX(500px);-webkit-transform:translateX(500px);-o-transform:translateX(500px);transform:translateX(500px);}	
